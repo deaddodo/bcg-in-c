@@ -128,7 +128,7 @@ int main(int argc, char *argv[]) {
         printf("YOU NOW HAVE %i DOLLARS.\n\n", state.cash);
         draw_hand(&hand);
 
-        //bet = take_bet(&state);
+        bet = take_bet(&state);
         win = compare_cards(&hand);
 
         if(win) {
